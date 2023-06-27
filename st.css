@@ -1,0 +1,18 @@
+.di{
+    background-color: aqua;
+    font-size: 20px;
+    color: brown;
+    border: 10px double;
+}
+.pr{
+    background-color: rgb(242, 118, 104);
+    font-size: 25px;
+    border: 10px dotted black;
+}
+.he{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid salmon;
+}

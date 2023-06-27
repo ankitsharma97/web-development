@@ -1,0 +1,27 @@
+/* uviversal selector */
+*{
+    border: 10px solid salmon;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-size: 20px;
+}
+/*  element selector */
+h1{
+    color: red;
+}
+/* class selector */
+.pr{
+    color: yellow;
+}
+.hello{
+    font-size: 50px;
+}
+/* id-selector */
+#id1{
+    color: whitesmoke;
+}
+/* selector-list */
+.class1,.class2,.class3{
+    
+}
