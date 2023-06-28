@@ -1,0 +1,17 @@
+/* descendent selector */
+main p{
+    color: red;
+}
+/* child ele*/
+h1>p{
+    color: blue;
+}
+/* adjactnt sibling selector */
+/* section+p{
+    color: salmon;
+} */
+/* general si sel */
+section ~p{
+    color: salmon;
+}
+/* attribute sele */

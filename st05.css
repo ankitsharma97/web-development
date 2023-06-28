@@ -1,0 +1,19 @@
+/* text */
+p{
+    color: salmon;
+    text-shadow: 2px red;  
+    text-align-last:justify;
+    /* direction: ltr; */
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+h3{
+    text-align: justify;
+  
+}
+a{
+    text-decoration: double;
+    text-transform: uppercase;
+}
