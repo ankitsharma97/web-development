@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        p:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        input:focus{
+            background-color: salmon;
+           
+            color: rgb(166, 229, 18);
+        }
+        a:hover{
+           color: rgb(221, 218, 28);
+        }
+        a:focus{
+            color: rgb(238, 17, 168);
+        }
+        /* a:visited{
+            color: red;
+        } */
+        a:nth-child(2n){
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!--  pseudo classes -->
+    <p class="hover">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ducimus.
+    </p>
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="https://github.com/ankitsharma97">github</a>
+        <a href="https://github.com/ankitsharma97">github</a>
+        <a href="https://github.com/ankitsharma97">github</a>
+        <a href="https://github.com/ankitsharma97">github</a>
+    </nav>
+   
+</body>
+</html>

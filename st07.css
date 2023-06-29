@@ -1,0 +1,16 @@
+p.inline{
+    display: inline;
+}
+span{
+    display: block;
+}
+/* .in-blck{
+    display: inline-block;
+    width: 100px;
+    color: rgb(238, 111, 37);
+} */
+.in-blck{
+    display: none;
+    /* width: 100px;
+    color: rgb(238, 111, 37); */
+}
