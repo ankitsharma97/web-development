@@ -1,0 +1,54 @@
+@media (max-width:600px) {
+    /* phones */
+    body{
+        background-color: salmon;
+    }
+    div::after{
+        content: "mobile compatiable";
+    }
+
+}
+@media (min-width:600px) {
+    /* big phones  600-768*/
+    body{
+        background-color: rgb(231, 32, 10);
+    }
+    div::after{
+        content: "big mobile compatiable";
+    }
+
+}
+@media (min-width:768px) {
+    /* tablet 768-992*/
+    body{
+        background-color: rgb(35, 244, 216);
+    }
+    div::after{
+        content: "tablet";
+    }
+
+}
+@media (min-width:992px) {
+    /* laptop*/
+    body{
+        background-color: rgb(180, 226, 16);
+    }
+    div::after{
+        content: "laptop";
+    }
+
+}
+@media (min-width:1200px) {
+    /* phones */
+    body{
+        background-color: rgb(238, 50, 198);
+    }
+    div::after{
+        content: "larger";
+    }
+
+}
+div{
+    text-align: center;
+    font-size: large ;
+}
