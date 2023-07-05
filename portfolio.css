@@ -6,6 +6,10 @@
 }
 .hero
 {
+    /* display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%; */
     height:100vh;
     width: auto;
     background-image: url(./back2.png);
@@ -60,10 +64,17 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .content{
-    position: absolute;
-    top: 50%;
+    /* display: grid; */
+    /* grid-column: 1fr; */
+    /* justify-self: center; */
+    /* align-self: center; */
+    width: 100%;
+     position: absolute; 
+     /*padding-left: 12%;
+    padding-top: 10%; */ 
+     top: 50%;
     left: 8%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); 
 }
 h1{
     color: whitesmoke;
@@ -88,7 +99,7 @@ h3{
 }
 .newslatter form input:first-child{
     display: flex;
-    
+
     width: 100%;
     padding: 14px 130px 14px 15px;
     border: 2px solid #f9004d;

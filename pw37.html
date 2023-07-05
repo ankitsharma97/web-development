@@ -10,16 +10,22 @@
             display: grid;
             grid-template-columns: minmax(10px,1fr) minmax(10px,1fr) minmax(10px,1fr);
             grid-template-rows: 600px 100px 100px;
+            /* grid-area: header header header; */
+            grid-template-areas: none;
+            row-gap: 10px;
+            justify-items: center;
         }
        .box{
-            height: 100px;
-            width: 100px;
-            margin: 10px;
+            /* height: 100px;
+            width: 100px; */
+         
         }
         .box1{
             background-color: red;
             /* align-self: flex-end; */
-            justify-self: center;
+            /* justify-self: center; */
+            grid-column-start: 1;
+            grid-column-end: 3;
 
             border: 2px solid black;
         }
