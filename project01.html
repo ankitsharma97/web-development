@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-01</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+            margin: 2px;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: #edf1fd;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+            cursor: pointer;
+            color: blue;
+        }
+        a{
+            text-decoration: none;
+        }
+        button{
+            background-color: aqua;
+            padding: 4px 10px;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(255, 0, 0);
+            border-radius: 5px;
+            font-weight: 600;
+            width: fit-content;
+            transform: none;
+            transition: 40ms;
+        }
+        button:hover{
+            background-color: transparent;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between
+        }
+        
+        .logo{
+            font-weight: 900;
+            font-size: larger;
+
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+        }
+        nav ul li a:hover{
+            color: salmon;
+        }
+        .search{
+            display: flex;
+            gap: 35px ;
+        }
+        input{
+            padding: 4px 10px;
+        }
+        .hero{
+            display: flex;
+            align-items: center;
+
+        }
+        .left h1{
+            font-size: 35px;
+            margin: 20px;
+            font-weight: 600;
+        }
+        span{
+            color: crimson;
+            font-size: 2.5 rem;
+            text-transform: capitalize;
+        }
+        p{
+            font-weight: 300;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            /* align-items: center; */
+            justify-content: center;
+            gap: 20px;
+        }
+        .left button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img{
+           border-radius: 10%;
+        }
+        footer{
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        footer ul{
+            display: flex;
+            gap: 20px;
+        }
+        footer ul a{
+            
+            align-items: center;
+            justify-content: space-between;
+        }
+        footer ul a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- project-01 -->
+
+    <!-- header -->
+   <header>
+   
+    <!-- navigation -->
+    <nav>
+         <!-- logo -->
+         <div class="logo">
+             LOGO
+         </div>
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+         </ul>
+         <!-- search box -->
+         <div class="search">
+            <input type="search" name="" id="" placeholder="search">
+            <button>
+                search
+            </button>
+         </div>
+    </nav>
+   </header>
+   <section class="hero">
+    <!-- left div context -->
+    <div class="left">
+        <h1>Hello, I Am A <span>Web-Developer</span></h1>
+        <p>
+            I am a talented web developer with expertise in <span>front-end </span>  and <span>back-end </span> development. <br> My passion for coding, problem-solving skills, and dedication to staying updated with the latest technologies make me a valuable asset in creating exceptional web experiences.
+        </p>
+    </div>
+    <!-- right div context -->
+    <div class="right">
+        <img src="about.png" alt="" >
+        <!-- chat button -->
+        <div>
+            <button>
+                chat with me
+            </button>
+        </div>
+    </div>
+   </section>
+   <!-- footer -->
+   <footer>
+    <div>
+        <p>
+            all right are reversed
+        </p>
+    </div>
+    <ul>
+        <li><a href=""><i class="fa-brands fa-github">g</i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook">f</i></a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin">l</i></a></li>
+    </ul>
+   </footer>
+</body>
+</html>
